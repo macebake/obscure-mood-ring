@@ -1,0 +1,22 @@
+.ng-valid[required] {
+  border-left: 5px solid #42A948;
+}
+
+.ng-invalid {
+  border-left: 5px solid #a94442;
+}
+
+.bg-change-london {
+background: linear-gradient(210deg, #C297B8, #A6B1E1);
+background-size: 200% 400%;
+}
+
+.bg-change-sf {
+background: linear-gradient(130deg, #FFFD98, #EB5160);
+background-size: 200% 400%;
+}
+
+.bg-change-dublin {
+background: linear-gradient(130deg, #55917F, #6F5967);
+background-size: 200% 400%;
+}

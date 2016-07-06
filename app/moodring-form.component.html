@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<div class="container">
+  <h1>mood ring</h1>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="name">name</label>
+      <input type="text" class="form-control" required [(ngModel)]="model.name">
+    </div>
+    <div class="form-group">
+      <label for="location">location</label>
+      <select id="location" class="form-control" required>
+        <option *ngFor="let l of location" [value]="l">{{l}}</option>
+      </select>
+    </div>
+    <button id="submit" type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+</html>
